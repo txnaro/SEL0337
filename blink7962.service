@@ -1,14 +1,22 @@
 [Unit]
+#seção de metadados e dependências do serviço
+
+#Descrição que aparece nos logs e no status do systemctl
 Description= Blink LED
+#define a ordem de boot: inicia somente após o ambiente multiusuário estar pronto
 After=multi-user.target
 
-[Service]
+#configurações de execução dos processos
+#script principal executado ao iniciar o serviço (boot ou 'start')
 ExecStart=/usr/bin/python3 /home/sel/7962/blink_gpiozero.py
 
+#script de limpeza executado ao parar o serviço ('stop'), desligando o LED 
 ExecStop=/usr/bin/python3 /home/sel/7962/blink2.py
 
+#define o usuário que executará o processo (permissões)
 user=sel
 
 [Install]
-
+#define o comportamento de instalação/habilitação 
+#vincula o serviço ao target multi-user, permitindo inicialização automática no boot 
 WantedBy=multi-user.target
