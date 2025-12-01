@@ -63,11 +63,11 @@ A montagem física consistiu na conexão de um LED à porta GPIO 18 da Raspberry
 
 Montagem Prática:
 
+![Monragem Prática.]()
 
+Ao reiniciar a Raspberry Pi, o LED começou a piscar automaticamente sem intervenção do usuário, comprovando que o serviço foi carregado corretamente durante o boot (estágio init system). O status do serviço pôde ser verificado via terminal, onde o comando systemctl status indicou "active (running)".
 
-Comprovação do Funcionamento: Ao reiniciar a Raspberry Pi, o LED começou a piscar automaticamente sem intervenção do usuário, comprovando que o serviço foi carregado corretamente durante o boot (estágio init system). O status do serviço pôde ser verificado via terminal, onde o comando systemctl status indicou "active (running)".
-
-
+Foi gravado um vídeo demonstrando o funcionamento, segue o link: https://drive.google.com/file/d/1AXNkV673j1UFmF4vW7TMBt_E_tfxG7qA/view?usp=drive_link
 
 # Parte 2: Controle de Versão (Git e GitHub)
 Nesta etapa, utilizamos o Git para versionar os códigos desenvolvidos. O fluxo de trabalho incluiu, inicialização do repositório local, adição dos arquivos (git add), registros de alterações (git commit) e sincronização com o repositório remoto no GitHub (git push).
