@@ -63,7 +63,7 @@ A montagem física consistiu na conexão de um LED à porta GPIO 18 da Raspberry
 
 Montagem Prática:
 
-![Monragem Prática.]()
+![Montagem Prática.](Screenshot 2025-12-01 173550.png)
 
 Ao reiniciar a Raspberry Pi, o LED começou a piscar automaticamente sem intervenção do usuário, comprovando que o serviço foi carregado corretamente durante o boot (estágio init system). O status do serviço pôde ser verificado via terminal, onde o comando systemctl status indicou "active (running)".
 
