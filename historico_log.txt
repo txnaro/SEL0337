@@ -1,0 +1,11 @@
+commit 9f25757161860710e50a670eab67ceb29379c005
+Author: txnaro <thiagoferreirapires@hotmail.com>
+Date:   Mon Dec 1 19:03:37 2025 +0000
+
+    enviando a pratica
+
+commit 36a0888c07cd18eb990d8b1a0e3dfd9d3fad1403
+Author: txnaro <thiagoferreirapires@hotmail.com>
+Date:   Mon Dec 1 15:39:20 2025 -0300
+
+    Initial commit
